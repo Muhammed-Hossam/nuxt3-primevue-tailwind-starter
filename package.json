@@ -15,11 +15,15 @@
     "@pinia/nuxt": "^0.5.5",
     "@primevue/nuxt-module": "^4.1.1",
     "@primevue/themes": "^4.1.1",
+    "@vee-validate/nuxt": "^4.14.7",
+    "@vueuse/nuxt": "^12.0.0",
     "nuxt": "^3.13.2",
     "pinia": "^2.2.4",
     "pinia-plugin-persistedstate": "^4.1.2",
+    "primeicons": "^7.0.0",
     "sass": "^1.80.4",
     "vue": "latest",
-    "vue-router": "latest"
+    "vue-router": "latest",
+    "yup": "^1.5.0"
   }
 }

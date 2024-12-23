@@ -6,8 +6,8 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   runtimeConfig: {
     public: {
-      api_base_url: 'https://jsonplaceholder.typicode.com'
-      // api_base_url: 'https://backend.ctva.org.sa/api'
+      // api_base_url: 'https://jsonplaceholder.typicode.com'
+      api_base_url: 'https://backend.ctva.org.sa/api'
     }
   },
   app: {
@@ -37,6 +37,8 @@ export default defineNuxtConfig({
     'pinia-plugin-persistedstate',
     '@primevue/nuxt-module',
     '@nuxtjs/tailwindcss',
+    '@vee-validate/nuxt',
+    '@vueuse/nuxt',
   ],
   pinia: {
     autoImports: ['defineStore']
